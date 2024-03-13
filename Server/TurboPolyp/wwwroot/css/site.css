@@ -1,0 +1,97 @@
+body {
+    font-family: futura;
+    background-color: #efefef;
+    opacity: 1;
+    background-image: linear-gradient(135deg, #ffffff 25%, transparent 25%), linear-gradient(225deg, #ffffff 25%, transparent 25%), linear-gradient(45deg, #ffffff 25%, transparent 25%), linear-gradient(315deg, #ffffff 25%, #efefef 25%);
+    background-position: 23px 0, 23px 0, 0 0, 0 0;
+    background-size: 46px 46px;
+    background-repeat: repeat;
+}
+
+#main {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+
+#turbo {
+    height: 40vh;
+}
+
+marquee {
+    font-size: 25px
+}
+
+#seats ul{
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#seats li svg {
+    width: 100px;
+}
+
+#seats li svg:hover {
+    fill: orange;
+}
+
+#seats li.taken svg {
+    fill: red;
+}
+
+.awesome {
+    color: #313131;
+    font-size: 65px;
+    font-weight: bold;
+    -webkit-animation: colorchange 20s infinite alternate;
+    line-height: 50px
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+        color: blue;
+    }
+
+    10% {
+        color: #8e44ad;
+    }
+
+    20% {
+        color: #1abc9c;
+    }
+
+    30% {
+        color: #d35400;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    50% {
+        color: #34495e;
+    }
+
+    60% {
+        color: blue;
+    }
+
+    70% {
+        color: #2980b9;
+    }
+
+    80% {
+        color: #f1c40f;
+    }
+
+    90% {
+        color: #2980b9;
+    }
+
+    100% {
+        color: pink;
+    }
+}
